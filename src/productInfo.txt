@@ -1,0 +1,17 @@
+name=testtt
+version=2.0.11.0
+
+#2.0.11.0
+#Зависимость: HLR.2.2.48.8
+#Mobile_HLR-463 Формирование repository data на основании профиля абонента
+#Добавил формирование: MMTelServices на основании ssData, SIP-Basic-Data на основании IMSI/MSISDN, Advanced-Media-Services
+#Mobile_HLR-466 HSS дает зарегистрировать один IMS Subscription на нескольких S-CSCF
+#Добавил поиск регистрации на SCSCF по всем IMPI в рамках IMSU по запросу GetSdIms
+#Добавил lock по IMSSubscription
+#Передача Capabilities и PrefferedScscf на HSS всегда, не зависимо от наличия регистрации (+ fix поправил имя параметра)
+#Mobile_HLR-467 HSS не присылает PPR при обновлении/добавлении charging info у IMS Subscription
+#Сделал формироваине только одного PPR в рамках подписки
+#
+#2.0.10.3
+#Mobile_HLR-454 Rename parameter + get vlr registration in getSdIms
+#
